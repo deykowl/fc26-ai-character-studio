@@ -1,0 +1,29 @@
+{
+  "schema": "fc26-ai-character-studio/full-career-import-2.0",
+  "generated_utc": "2026-07-23T17:33:35Z",
+  "project_id": "b05e39e56dc14fa5b586c6900b547f9d",
+  "project_name": "Nouveau personnage",
+  "score": 12.467,
+  "previous_score": 11.625,
+  "source_save": "CmPlr20260723185430084",
+  "source_sha256": "93ecf371fa33121a440f34f106db457b9282ddcd505a2c06ab748d2990e1978e",
+  "source_untouched": true,
+  "backup_relative": "workspace/imports/backups/CmPlr20260723185430084.20260723193335.backup",
+  "output_save": "CmPlr20260723193335100",
+  "output_sha256": "5e42951e56bfea60b875e02cd5adb87bf837c412e049340d35078055bfbe8fdf",
+  "file_size_unchanged": true,
+  "axes_requested": 618,
+  "axes_readback_ok": 618,
+  "changed_byte_count": 618,
+  "all_changes_inside_cranium_fields": true,
+  "appearance": {},
+  "appearance_status": "FC26 materials preserved from source save; morph import completed",
+  "safety": {
+    "fc26_was_closed": true,
+    "source_save_modified": false,
+    "separate_copy_created": true,
+    "game_files_modified": false,
+    "anti_cheat_touched": false,
+    "crc_bytes_modified": false
+  }
+}
