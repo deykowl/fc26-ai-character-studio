@@ -1,9 +1,10 @@
 {
   "schema": "fc26-ai-character-studio/permanent-controller-1.0",
-  "stage": "waiting_for_new_throwaway_career",
-  "baseline_save_count": 3,
+  "stage": "baseline_captured",
+  "target_save": "CmPlr20260723184855494",
+  "before_sha256": "e7f51963d191650c735fde4a6c444e59b9a524151dde2bbaa4ab7b70785e8f72",
   "safety": {
-    "read_only": true,
+    "original_backed_up": true,
     "save_modified": false,
     "game_files_modified": false,
     "anti_cheat_touched": false
