@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
-SCHEMA = "fc26-ai-character-studio/career-db-probe-1.2"
+SCHEMA = "fc26-ai-character-studio/career-db-probe-1.3"
 FBCHUNKS = b"FBCHUNKS"
 DB_HEADER = b"\x44\x42\x00\x08\x00\x00\x00\x00"
 META_URL = (
@@ -24,6 +24,7 @@ META_URL = (
 
 APPEARANCE_TOKENS = {
     "appearance", "visual", "vpro", "virtualpro", "createplayer", "createdplayer",
+    "skeletal", "flesh", "fat", "secondaryform", "craniumcontrol",
     "head", "face", "facial", "cranium", "morph", "preset",
     "skin", "complexion", "tone", "color", "colour",
     "hair", "hairstyle", "beard", "facialhair", "brow", "eyebrow",
@@ -40,7 +41,7 @@ IDENTITY_TOKENS = {
 MAX_TABLES = 2000
 MAX_FIELDS_PER_TABLE = 500
 MAX_CANDIDATE_TABLES = 100
-MAX_RECORD_SAMPLES = 8
+MAX_RECORD_SAMPLES = 32
 
 
 def sha256_file(path: Path) -> str:
@@ -248,8 +249,8 @@ def parse_table_schema(
         unknown0 = read_u32(db_data, pos)
         record_size = read_u32(db_data, pos + 4)
         valid_records = read_u16(db_data, pos + 18)
-        fields_count = db_data[pos + 25]
-        fields_pos = pos + 37
+        fields_count = db_data[pos + 24]
+        fields_pos = pos + 36
 
         if record_size <= 0 or record_size > 1_000_000:
             raise ValueError(f"record_size suspect: {record_size}")
@@ -417,6 +418,7 @@ def inspect_database(
         if table.get("parse_ok") and (
             is_appearance_name(table.get("short"), table.get("name"))
             or bool(table.get("appearance_fields"))
+            or table.get("name") in {"cp_skeletal", "cp_flesh", "cp_fat", "createplayer", "players", "playerpronouns"}
         )
     ][:MAX_CANDIDATE_TABLES]
 
