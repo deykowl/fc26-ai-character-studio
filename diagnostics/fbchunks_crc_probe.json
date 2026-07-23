@@ -1,0 +1,84 @@
+{
+  "schema": "fc26-ai-character-studio/fbchunks-crc-probe-1.0",
+  "generated_utc": "2026-07-23T17:05:19Z",
+  "safety": {
+    "read_only": true,
+    "save_modified": false,
+    "game_started": false,
+    "anti_cheat_touched": false
+  },
+  "saves": [
+    {
+      "name": "CmPlr20250925012126739",
+      "size": 15274941,
+      "attempts": [
+        {
+          "size_endian": "little",
+          "header_size": 1108,
+          "data_size": 15273815,
+          "declared_total": 15274941,
+          "actual_total": 15274941,
+          "header_crc_offset": 18,
+          "data_crc_offset": 1126,
+          "stored_header_raw": "43617272",
+          "stored_data_raw": "53617665",
+          "matches": []
+        }
+      ]
+    },
+    {
+      "name": "CmPlr20260325001839527",
+      "size": 15274941,
+      "attempts": [
+        {
+          "size_endian": "little",
+          "header_size": 1108,
+          "data_size": 15273815,
+          "declared_total": 15274941,
+          "actual_total": 15274941,
+          "header_crc_offset": 18,
+          "data_crc_offset": 1126,
+          "stored_header_raw": "506f696e",
+          "stored_data_raw": "53617665",
+          "matches": []
+        }
+      ]
+    },
+    {
+      "name": "CmPlr20260702021410684",
+      "size": 15274941,
+      "attempts": [
+        {
+          "size_endian": "little",
+          "header_size": 1108,
+          "data_size": 15273815,
+          "declared_total": 15274941,
+          "actual_total": 15274941,
+          "header_crc_offset": 18,
+          "data_crc_offset": 1126,
+          "stored_header_raw": "43617272",
+          "stored_data_raw": "53617665",
+          "matches": []
+        }
+      ]
+    },
+    {
+      "name": "CmPlr20260723185430084",
+      "size": 15274941,
+      "attempts": [
+        {
+          "size_endian": "little",
+          "header_size": 1108,
+          "data_size": 15273815,
+          "declared_total": 15274941,
+          "actual_total": 15274941,
+          "header_crc_offset": 18,
+          "data_crc_offset": 1126,
+          "stored_header_raw": "43617272",
+          "stored_data_raw": "53617665",
+          "matches": []
+        }
+      ]
+    }
+  ]
+}
