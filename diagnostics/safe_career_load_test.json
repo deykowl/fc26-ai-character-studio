@@ -1,0 +1,38 @@
+{
+  "schema": "fc26-ai-character-studio/safe-career-load-test-1.6",
+  "generated_utc": "2026-07-23T16:02:03Z",
+  "safety": {
+    "source_save_modified": false,
+    "game_process_opened": false,
+    "game_files_modified": false,
+    "anti_cheat_touched": false,
+    "new_local_career_copy_created": true
+  },
+  "repository": {
+    "remote": "https://github.com/deykowl/fc26-ai-character-studio.git"
+  },
+  "source": {
+    "name": "CmPlr20260325001839527",
+    "sha256_before": "1c0a088e72d02234797865dfc87edde2fd3621f6d4a3efd71bdc1fee7da762e7",
+    "sha256_after": "1c0a088e72d02234797865dfc87edde2fd3621f6d4a3efd71bdc1fee7da762e7",
+    "original_untouched": true,
+    "backup_relative": "workspace/load_tests/20260723_180203/CmPlr20260325001839527.untouched_backup"
+  },
+  "test_copy": {
+    "name": "CmPlr20260723180203465",
+    "sha256": "daf63a46733aedd79a631f23b5984f971ebe04b99f04cfa9002f46dbed337ec4",
+    "size": 15274941,
+    "installed_in_fc26_settings": true,
+    "test_morph": "bs_skull_NN_SXX_F",
+    "old_value": 25,
+    "new_value": 70,
+    "readback_value": 70,
+    "validation_field_old_hex": "2348334a",
+    "validation_field_new_hex": "00000000",
+    "game_load_test_performed": false
+  },
+  "cleanup": {
+    "marker_relative": "workspace/load_tests/active_test.json",
+    "remove_command": "python tools/fc26_safe_career_load_test.py cleanup"
+  }
+}
