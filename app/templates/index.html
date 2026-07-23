@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FC26 AI Character Studio</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="studio-page">
+<header class="topbar">
+  <div class="brand"><strong>FC<span>26</span></strong><i></i><b>AI CHARACTER STUDIO</b></div>
+  <div class="top-status">
+    <span id="engine-status" class="status-chip"><i></i> Moteur exact</span>
+    <button id="logout" class="text-button">Déconnexion</button>
+  </div>
+</header>
+
+<main class="studio-grid">
+  <aside class="panel source-panel">
+    <header class="panel-title"><span>01</span><div><small>RÉFÉRENCES</small><h2>Visage cible</h2></div></header>
+    <label class="field-label" for="character-name">Nom du personnage</label>
+    <input id="character-name" class="text-input" value="Nouveau personnage" maxlength="80">
+
+    <label id="dropzone" class="dropzone" for="images">
+      <input id="images" type="file" accept="image/jpeg,image/png,image/webp" multiple hidden>
+      <div class="plus">+</div>
+      <strong>Ajouter des images</strong>
+      <span>1 à 8 · face, 3/4, profil</span>
+    </label>
+    <div id="thumbs" class="thumb-grid"></div>
+    <div class="photo-help">
+      <b>Pas besoin de faire tourner la personne.</b>
+      Les images peuvent venir de captures, d’un jeu, d’un anime ou d’Internet.
+    </div>
+    <button id="start" class="button button-primary full" disabled>Lancer la reconstruction</button>
+    <div class="privacy-line"><span>●</span> Images analysées uniquement sur ce PC</div>
+    <section class="recent-section">
+      <div class="recent-title"><b>PROJETS RÉCENTS</b><button id="refresh-projects" class="text-button">Actualiser</button></div>
+      <div id="recent-projects" class="recent-projects"><span>Aucun personnage enregistré.</span></div>
+    </section>
+  </aside>
+
+  <section class="panel render-panel">
+    <header class="panel-title render-title">
+      <span>02</span><div><small>RENDERER FC26 EXACT</small><h2>Reconstruction en direct</h2></div>
+      <div id="score" class="score">—</div>
+    </header>
+    <div class="viewport-shell">
+      <canvas id="head-canvas"></canvas>
+      <div class="viewport-grid"></div>
+      <div class="viewport-topline">
+        <div><span class="live-dot"></span><b id="live-state">NEUTRAL</b></div>
+        <div id="mesh-stats">3 355 VERTICES · 6 334 TRIANGLES</div>
+      </div>
+      <div class="view-buttons">
+        <button data-view="front" class="active">Face</button>
+        <button data-view="three">3/4</button>
+        <button data-view="profile">Profil</button>
+        <button data-view="reset">Libre</button>
+      </div>
+      <div class="viewport-hint">Glisser pour tourner · molette pour zoomer</div>
+    </div>
+    <div class="progress-row">
+      <div class="progress-track"><div id="progress-bar"></div></div>
+      <span id="progress-number">0%</span>
+    </div>
+    <div class="process-line">
+      <div><small>ÉTAPE ACTIVE</small><strong id="process-stage">En attente des références</strong></div>
+      <div><small>PASSE</small><strong id="process-iteration">—</strong></div>
+      <div><small>VUES</small><strong id="view-count">—</strong></div>
+    </div>
+    <div id="timeline" class="timeline"></div>
+  </section>
+
+  <aside class="panel settings-panel">
+    <header class="panel-title"><span>03</span><div><small>CRANIUM ENGINE</small><h2>Paramètres exacts</h2></div></header>
+    <div class="settings-toolbar">
+      <input id="control-search" class="text-input" placeholder="Rechercher nez, skull, yeux…">
+      <select id="layer-filter" class="select-input">
+        <option value="all">Toutes les couches</option>
+        <option>Skeletal</option><option>Flesh</option><option>Fat</option><option>Secondary Form</option>
+      </select>
+    </div>
+    <div class="mode-tabs">
+      <button class="mode-tab active" data-tab="controls">Contrôles</button>
+      <button class="mode-tab" data-tab="refine">Affiner</button>
+      <button class="mode-tab" data-tab="export">Exporter</button>
+    </div>
+
+    <div id="tab-controls" class="tab-page active">
+      <div id="controls-list" class="controls-list"><div class="empty-state">Les 238 contrôles apparaîtront après le calcul.</div></div>
+    </div>
+
+    <div id="tab-refine" class="tab-page">
+      <h3>Zones à verrouiller</h3>
+      <p class="subtle">Une zone verrouillée reste exactement comme elle est pendant la prochaine recherche.</p>
+      <div id="region-locks" class="region-grid"></div>
+      <label class="field-label" for="target-region">Recherche ciblée</label>
+      <select id="target-region" class="select-input full-select">
+        <option value="all">Visage complet</option>
+      </select>
+      <button id="refine" class="button button-primary full" disabled>Relancer l’optimisation</button>
+      <button id="reset-values" class="button button-secondary full" disabled>Revenir au résultat IA</button>
+    </div>
+
+    <div id="tab-export" class="tab-page">
+      <div class="export-box ready"><i>✓</i><div><b>Recette Cranium exacte</b><span>238 contrôles · 618 axes</span></div></div>
+      <a id="export-json" class="button button-secondary full disabled">Télécharger le JSON</a>
+      <a id="export-csv" class="button button-secondary full disabled">Télécharger le CSV</a>
+      <a id="export-sheet" class="button button-secondary full disabled" target="_blank">Ouvrir la fiche propre</a>
+      <div class="export-note"><b>Export inclus :</b> valeurs normalisées exactes, morphs EA, couches Skeletal/Flesh/Fat/Secondary et pourcentages par axe.</div>
+    </div>
+  </aside>
+</main>
+
+<div id="toast" class="toast"></div>
+<script type="module" src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.venv/
+workspace/config.json
+workspace/projects/*
+!workspace/projects/.gitkeep
+__pycache__/
+*.pyc

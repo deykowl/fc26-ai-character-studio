@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Connexion — FC26 AI Character Studio</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="login-page">
+  <main class="login-shell">
+    <div class="login-logo">FC<span>26</span></div>
+    <div class="eyebrow">PRIVATE CHARACTER LAB</div>
+    <h1>FC26 AI<br>Character Studio</h1>
+    <p class="login-copy">Le moteur Cranium exact, protégé par ton code d’accès et limité à cette machine.</p>
+    <form id="login-form" autocomplete="off">
+      <label for="code">Code d’accès</label>
+      <input id="code" type="password" minlength="6" autocomplete="current-password" autofocus>
+      <button class="button button-primary" type="submit">Ouvrir le Studio</button>
+      <p id="login-error" class="error-text"></p>
+    </form>
+    <div class="local-pill"><span></span> Accès local · 127.0.0.1</div>
+  </main>
+  <script src="/static/login.js"></script>
+</body>
+</html>

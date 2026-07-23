@@ -1,0 +1,39 @@
+{
+  "product": "FC26 AI Character Studio",
+  "version": "1.0.1",
+  "build_date": "2026-07-23",
+  "renderer": {
+    "source": "FC26 Cranium exact LOD0",
+    "vertices": 3355,
+    "triangles": 6334,
+    "runtime_morphs": 1092,
+    "sparse_delta_pairs": 224598
+  },
+  "editor": {
+    "controls": 238,
+    "axes": 618,
+    "layers": [
+      "Skeletal",
+      "Flesh",
+      "Fat",
+      "Secondary Form"
+    ]
+  },
+  "features": [
+    "private access code",
+    "one to eight reference images",
+    "local MediaPipe face analysis",
+    "multi-view FC26 inverse fitting",
+    "live exact morph animation",
+    "manual axis editing",
+    "region locks and targeted refinement",
+    "saved local projects",
+    "JSON CSV and HTML exports"
+  ],
+  "installer": {
+    "automatic_python_311_install": true,
+    "winget_primary": true,
+    "python_org_fallback": "3.11.9-amd64",
+    "scope": "current Windows user"
+  }
+}

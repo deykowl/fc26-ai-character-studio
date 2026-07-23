@@ -1,0 +1,10 @@
+FC26 AI CHARACTER STUDIO
+========================
+
+1. Double-clique sur install_windows.bat (Python 3.11 sera installe automatiquement si necessaire)
+2. Double-clique sur setup_windows.bat et choisis ton code privé
+3. Double-clique sur run_windows.bat
+4. Le Studio s'ouvre dans le navigateur sur http://127.0.0.1:8765
+
+Pour vérifier le moteur : test_windows.bat
+Pour arrêter le Studio : ferme la fenêtre noire qui l'a lancé.
