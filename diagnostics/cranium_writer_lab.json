@@ -1,0 +1,682 @@
+{
+  "schema": "fc26-ai-character-studio/cranium-writer-lab-1.5",
+  "generated_utc": "2026-07-23T15:55:26Z",
+  "safety": {
+    "source_save_modified": false,
+    "game_process_opened": false,
+    "game_files_modified": false,
+    "anti_cheat_touched": false,
+    "test_copy_written_outside_game_save_folder": true
+  },
+  "repository": {
+    "remote": "https://github.com/deykowl/fc26-ai-character-studio.git"
+  },
+  "mapping": {
+    "studio_axis_entries": 618,
+    "studio_unique_morphs": 618,
+    "save_fields": 651,
+    "exact_matches": 618,
+    "unique_matched_save_fields": 618,
+    "ambiguous_axes": 0,
+    "unmatched_studio_axes": 0,
+    "unmatched_save_fields": 33,
+    "by_layer": {
+      "cp_skeletal": 223,
+      "cp_flesh": 215,
+      "cp_fat": 180
+    }
+  },
+  "mapping_samples": [
+    {
+      "control": "ctrl_bs_skull_nn_sxx",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "F",
+      "morph": "bs_skull_NN_SXX_F",
+      "save_table": "cp_skeletal",
+      "save_short": "EHLm",
+      "save_name": "bs_skull_NN_SXX_F",
+      "save_value": 25,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_sxx",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "D_U",
+      "morph": "bs_skull_NN_SXX_D_U",
+      "save_table": "cp_skeletal",
+      "save_short": "sggx",
+      "save_name": "bs_skull_NN_SXX_D_U",
+      "save_value": -15,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_sxx",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "R_A",
+      "morph": "bs_skull_NN_SXX_R_A",
+      "save_table": "cp_skeletal",
+      "save_short": "qlnK",
+      "save_name": "bs_skull_NN_SXX_R_A",
+      "save_value": 63,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_sxx",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "SL_SR",
+      "morph": "bs_skull_NN_SXX_SL_SR",
+      "save_table": "cp_skeletal",
+      "save_short": "jGMw",
+      "save_name": "bs_skull_NN_SXX_SL_SR",
+      "save_value": 22,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_sxx",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "N_W",
+      "morph": "bs_skull_NN_SXX_N_W",
+      "save_table": "cp_skeletal",
+      "save_short": "jBsD",
+      "save_name": "bs_skull_NN_SXX_N_W",
+      "save_value": 3,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_coronal_nn_sxx",
+      "display_name": "Sommet du crâne · centre",
+      "layer": "Skeletal",
+      "axis": "D_U",
+      "morph": "bs_coronal_NN_SXX_D_U",
+      "save_table": "cp_skeletal",
+      "save_short": "tzHZ",
+      "save_name": "bs_coronal_NN_SXX_D_U",
+      "save_value": -10,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_coronal_nn_sxx",
+      "display_name": "Sommet du crâne · centre",
+      "layer": "Skeletal",
+      "axis": "B_F",
+      "morph": "bs_coronal_NN_SXX_B_F",
+      "save_table": "cp_skeletal",
+      "save_short": "RwWh",
+      "save_name": "bs_coronal_NN_SXX_B_F",
+      "save_value": -1,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_coronal_nn_sxx",
+      "display_name": "Sommet du crâne · centre",
+      "layer": "Skeletal",
+      "axis": "SL_SR",
+      "morph": "bs_coronal_NN_SXX_SL_SR",
+      "save_table": "cp_skeletal",
+      "save_short": "pasi",
+      "save_name": "bs_coronal_NN_SXX_SL_SR",
+      "save_value": -10,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_coronal_nn_sxx",
+      "display_name": "Sommet du crâne · centre",
+      "layer": "Skeletal",
+      "axis": "R",
+      "morph": "bs_coronal_NN_SXX_R",
+      "save_table": "cp_skeletal",
+      "save_short": "VjIH",
+      "save_name": "bs_coronal_NN_SXX_R",
+      "save_value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_coronal_nn_sxx",
+      "display_name": "Sommet du crâne · centre",
+      "layer": "Skeletal",
+      "axis": "N_W",
+      "morph": "bs_coronal_NN_SXX_N_W",
+      "save_table": "cp_skeletal",
+      "save_short": "Wevb",
+      "save_name": "bs_coronal_NN_SXX_N_W",
+      "save_value": -22,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_xxp",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "D_U",
+      "morph": "bs_skull_NN_XXP_D_U",
+      "save_table": "cp_skeletal",
+      "save_short": "mfzm",
+      "save_name": "bs_skull_NN_XXP_D_U",
+      "save_value": -17,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_xxp",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "R_A",
+      "morph": "bs_skull_NN_XXP_R_A",
+      "save_table": "cp_skeletal",
+      "save_short": "oasV",
+      "save_name": "bs_skull_NN_XXP_R_A",
+      "save_value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_xxp",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "B_F",
+      "morph": "bs_skull_NN_XXP_B_F",
+      "save_table": "cp_skeletal",
+      "save_short": "KQKu",
+      "save_name": "bs_skull_NN_XXP_B_F",
+      "save_value": 36,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_xxp",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "SL_SR",
+      "morph": "bs_skull_NN_XXP_SL_SR",
+      "save_table": "cp_skeletal",
+      "save_short": "KEQi",
+      "save_name": "bs_skull_NN_XXP_SL_SR",
+      "save_value": -22,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_skull_nn_xxp",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "N_W",
+      "morph": "bs_skull_NN_XXP_N_W",
+      "save_table": "cp_skeletal",
+      "save_short": "VeTM",
+      "save_name": "bs_skull_NN_XXP_N_W",
+      "save_value": -19,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_temple_nl_xxx",
+      "display_name": "Tempe · gauche",
+      "layer": "Skeletal",
+      "axis": "D_U",
+      "morph": "bs_temple_NL_XXX_D_U",
+      "save_table": "cp_skeletal",
+      "save_short": "oCrd",
+      "save_name": "bs_temple_NL_XXX_D_U",
+      "save_value": -13,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_temple_nl_xxx",
+      "display_name": "Tempe · gauche",
+      "layer": "Skeletal",
+      "axis": "R_A",
+      "morph": "bs_temple_NL_XXX_R_A",
+      "save_table": "cp_skeletal",
+      "save_short": "mLkG",
+      "save_name": "bs_temple_NL_XXX_R_A",
+      "save_value": 15,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_temple_nl_xxx",
+      "display_name": "Tempe · gauche",
+      "layer": "Skeletal",
+      "axis": "B_F",
+      "morph": "bs_temple_NL_XXX_B_F",
+      "save_table": "cp_skeletal",
+      "save_short": "MBON",
+      "save_name": "bs_temple_NL_XXX_B_F",
+      "save_value": 24,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_temple_nl_xxx",
+      "display_name": "Tempe · gauche",
+      "layer": "Skeletal",
+      "axis": "N_W",
+      "morph": "bs_temple_NL_XXX_N_W",
+      "save_table": "cp_skeletal",
+      "save_short": "TDvX",
+      "save_name": "bs_temple_NL_XXX_N_W",
+      "save_value": -19,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "control": "ctrl_bs_temple_nr_xxx",
+      "display_name": "Tempe · droite",
+      "layer": "Skeletal",
+      "axis": "D_U",
+      "morph": "bs_temple_NR_XXX_D_U",
+      "save_table": "cp_skeletal",
+      "save_short": "sEae",
+      "save_name": "bs_temple_NR_XXX_D_U",
+      "save_value": 2,
+      "bit_depth": 8,
+      "range_low": -127
+    }
+  ],
+  "unmatched_studio_axis_names": [],
+  "unmatched_save_field_names": [
+    {
+      "table": "cp_skeletal",
+      "name": "ca_laryngeal_NN_XXX_N_W",
+      "short": "uzQE",
+      "value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "ca_adamsapple_NN_XXX_D_U",
+      "short": "yuaN",
+      "value": 34,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "ca_laryngeal_NN_XXX_B_F",
+      "short": "FpxO",
+      "value": 17,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "assetid",
+      "short": "yeEP",
+      "value": 30999,
+      "bit_depth": 20,
+      "range_low": 0
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "fc_neck_restore",
+      "short": "fmyQ",
+      "value": 127,
+      "bit_depth": 8,
+      "range_low": 0
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "ca_adamsapple_NN_XXX_B_F",
+      "short": "aBDd",
+      "value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "ca_laryngeal_NN_XXX_D_U",
+      "short": "diom",
+      "value": -82,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "ca_laryngeal_NN_XXX_SL_SR",
+      "short": "Iuns",
+      "value": 58,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "fc_mouthbag_restore",
+      "short": "fsTu",
+      "value": 227,
+      "bit_depth": 8,
+      "range_low": 0
+    },
+    {
+      "table": "cp_skeletal",
+      "name": "ca_adamsapple_NN_XXX_SL_SR",
+      "short": "ISAz",
+      "value": -79,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NR_ILX_N_W",
+      "short": "GySA",
+      "value": -33,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NR_ILX_D",
+      "short": "eOIB",
+      "value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_trapezius_NN_SXX_L_M",
+      "short": "YRVG",
+      "value": 28,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_sternomastoid_NL_XXX_R_A",
+      "short": "JnqH",
+      "value": 61,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NN_SMX_D_U",
+      "short": "LpLK",
+      "value": 32,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NL_SLX_D",
+      "short": "TvgN",
+      "value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "assetid",
+      "short": "yeEP",
+      "value": 30999,
+      "bit_depth": 20,
+      "range_low": 0
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NR_SLX_D",
+      "short": "UmXS",
+      "value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NL_SLX_N_W",
+      "short": "JqgT",
+      "value": -30,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NR_SLX_N_W",
+      "short": "VshY",
+      "value": -90,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_trapezius_NN_SXX_D_U",
+      "short": "VCwY",
+      "value": -24,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NN_IMX_D",
+      "short": "WgVa",
+      "value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_sternomastoid_NL_XXX_L_M",
+      "short": "edce",
+      "value": 9,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NN_SMX_N_W",
+      "short": "wELo",
+      "value": 34,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_sternomastoid_NR_XXX_L_M",
+      "short": "Obxp",
+      "value": 12,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NL_ILX_D",
+      "short": "tzLq",
+      "value": 0,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_platysma_NL_ILX_N_W",
+      "short": "WAPr",
+      "value": 26,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_flesh",
+      "name": "mu_sternomastoid_NR_XXX_R_A",
+      "short": "lpHs",
+      "value": 58,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_fat",
+      "name": "fa_preplatysmal_NL_XXX_L_M",
+      "short": "oACB",
+      "value": 18,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_fat",
+      "name": "fa_neck_NL_XXP_L_M",
+      "short": "ptJC",
+      "value": -37,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_fat",
+      "name": "fa_preplatysmal_NR_XXX_L_M",
+      "short": "YynO",
+      "value": 14,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    {
+      "table": "cp_fat",
+      "name": "assetid",
+      "short": "yeEP",
+      "value": 30999,
+      "bit_depth": 20,
+      "range_low": 0
+    },
+    {
+      "table": "cp_fat",
+      "name": "fa_neck_NR_XXP_L_M",
+      "short": "NrEp",
+      "value": -39,
+      "bit_depth": 8,
+      "range_low": -127
+    }
+  ],
+  "writer_copy_test": {
+    "source_save": "CmPlr20260325001839527",
+    "source_sha256_before": "1c0a088e72d02234797865dfc87edde2fd3621f6d4a3efd71bdc1fee7da762e7",
+    "source_sha256_after": "1c0a088e72d02234797865dfc87edde2fd3621f6d4a3efd71bdc1fee7da762e7",
+    "source_original_untouched": true,
+    "test_field": {
+      "control": "ctrl_bs_skull_nn_sxx",
+      "display_name": "Crâne · centre",
+      "layer": "Skeletal",
+      "axis": "F",
+      "morph": "bs_skull_NN_SXX_F",
+      "save_table": "cp_skeletal",
+      "save_short": "EHLm",
+      "save_name": "bs_skull_NN_SXX_F",
+      "save_value": 25,
+      "bit_depth": 8,
+      "range_low": -127
+    },
+    "old_value": 25,
+    "requested_new_value": 26,
+    "readback_value": 26,
+    "readback_matches": true,
+    "changed_byte_count": 1,
+    "changed_byte_offsets": [
+      8234627
+    ],
+    "all_changes_inside_target_field": true,
+    "file_size_unchanged": true,
+    "original_copy_relative": "workspace/write_tests/20260723_175524/CmPlr20260325001839527.original_copy",
+    "modified_copy_relative": "workspace/write_tests/20260723_175524/CmPlr20260325001839527.synthetic_test_copy",
+    "modified_copy_installed_into_fc26": false
+  },
+  "appearance_player_fields": {
+    "haircolorcode": {
+      "bit_depth": 6,
+      "range_low": 0
+    },
+    "facialhairtypecode": {
+      "bit_depth": 10,
+      "range_low": 0
+    },
+    "hairtypecode": {
+      "bit_depth": 14,
+      "range_low": 0
+    },
+    "skinsurfacepack": {
+      "bit_depth": 18,
+      "range_low": 100000
+    },
+    "headtypecode": {
+      "bit_depth": 14,
+      "range_low": 0
+    },
+    "height": {
+      "bit_depth": 7,
+      "range_low": 130
+    },
+    "weight": {
+      "bit_depth": 7,
+      "range_low": 30
+    },
+    "hashighqualityhead": {
+      "bit_depth": 1,
+      "range_low": 0
+    },
+    "eyedetail": {
+      "bit_depth": 5,
+      "range_low": 0
+    },
+    "gender": {
+      "bit_depth": 1,
+      "range_low": 0
+    },
+    "headassetid": {
+      "bit_depth": 19,
+      "range_low": 0
+    },
+    "eyebrowcode": {
+      "bit_depth": 24,
+      "range_low": 0
+    },
+    "eyecolorcode": {
+      "bit_depth": 6,
+      "range_low": 1
+    },
+    "headclasscode": {
+      "bit_depth": 2,
+      "range_low": 0
+    },
+    "skintypecode": {
+      "bit_depth": 8,
+      "range_low": 0
+    },
+    "headvariation": {
+      "bit_depth": 5,
+      "range_low": 0
+    },
+    "skintonecode": {
+      "bit_depth": 6,
+      "range_low": 0
+    },
+    "skincomplexion": {
+      "bit_depth": 4,
+      "range_low": 0
+    },
+    "hairstylecode": {
+      "bit_depth": 5,
+      "range_low": 0
+    },
+    "bodytypecode": {
+      "bit_depth": 9,
+      "range_low": 1
+    },
+    "facialhaircolorcode": {
+      "bit_depth": 6,
+      "range_low": 0
+    }
+  },
+  "createplayer_field_count": 15,
+  "next_gate": {
+    "safe_copy_writer_ready": true,
+    "game_load_test_performed": false,
+    "reason": "The synthetic copy is deliberately not installed into FC26. A throwaway career and full automatic backup/restore flow are required before a real load test."
+  }
+}
