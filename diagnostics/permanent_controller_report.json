@@ -1,0 +1,11 @@
+{
+  "schema": "fc26-ai-character-studio/permanent-controller-1.0",
+  "stage": "waiting_for_new_throwaway_career",
+  "baseline_save_count": 3,
+  "safety": {
+    "read_only": true,
+    "save_modified": false,
+    "game_files_modified": false,
+    "anti_cheat_touched": false
+  }
+}
