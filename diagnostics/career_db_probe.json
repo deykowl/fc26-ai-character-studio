@@ -1,0 +1,1092 @@
+{
+  "schema": "fc26-ai-character-studio/career-db-probe-1.2",
+  "generated_utc": "2026-07-23T15:36:04Z",
+  "safety": {
+    "read_only": true,
+    "game_process_opened": false,
+    "game_files_modified": false,
+    "save_files_modified": false,
+    "anti_cheat_touched": false,
+    "raw_save_contents_uploaded": false,
+    "personal_names_exported": false
+  },
+  "repository": {
+    "remote": "https://github.com/deykowl/fc26-ai-character-studio.git"
+  },
+  "metadata": {
+    "source": "https://raw.githubusercontent.com/INSANE0777/Fc26-live-editor-mcp/main/src/fc26_mcp/data/fifa_ng_db-meta-fc26.xml",
+    "tables": 279,
+    "fields": 2275
+  },
+  "career_player_saves": [
+    {
+      "name": "CmPlr20260325001839527",
+      "size": 15274941,
+      "modified_utc": "2026-05-01T20:22:34Z",
+      "sha256": "1c0a088e72d02234797865dfc87edde2fd3621f6d4a3efd71bdc1fee7da762e7",
+      "outer": {
+        "version": 1,
+        "header_size": 1108,
+        "data_size_declared": 15273815,
+        "header_start": 18,
+        "header_end": 1126,
+        "data_start": 1126,
+        "data_end_declared": 15274941,
+        "file_size": 15274941,
+        "sizes_fit_file": true,
+        "header_crc": {
+          "stored_hex": "6e696f50",
+          "actual_hex": "5257db07",
+          "matches": false
+        },
+        "data_crc": {
+          "stored_hex": "65766153",
+          "actual_hex": "465db128",
+          "matches": false,
+          "calculated_until": 15274941
+        },
+        "header_magic_preview": "ts de dÃ©part rÃ",
+        "data_magic_preview_hex": "547970655f436172656572002348334a0e02000001000000b015684a44991c44"
+      },
+      "database": {
+        "found": true,
+        "all_candidates": [
+          {
+            "offset": 213681,
+            "db_size": 1318228,
+            "table_count": 33,
+            "db_fits_file": true,
+            "index_fits_db": true,
+            "header_hex_32": "4442000800000000541d14000000000021000000e450ff62656d6d6a00000000"
+          },
+          {
+            "offset": 1531913,
+            "db_size": 7044560,
+            "table_count": 33,
+            "db_fits_file": true,
+            "index_fits_db": true,
+            "header_hex_32": "4442000800000000d07d6b0000000000210000004275781d435a554d00000000"
+          }
+        ],
+        "selected": {
+          "offset": 1531913,
+          "db_size": 7044560,
+          "table_count": 33,
+          "db_fits_file": true,
+          "index_fits_db": true,
+          "header_hex_32": "4442000800000000d07d6b0000000000210000004275781d435a554d00000000"
+        },
+        "db_sha256": "341498f7ee9843b0ee8e5407b9342c1dc543017c1ca22eb2a025a65a9affa752",
+        "tables_start": 292,
+        "table_count": 33,
+        "parsed_table_count": 33,
+        "failed_table_count": 0,
+        "table_catalog": [
+          {
+            "short": "CZUM",
+            "name": "players",
+            "record_size": 144,
+            "valid_records": 20738,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "lyxL",
+            "name": "teams",
+            "record_size": 188,
+            "valid_records": 809,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "mDGw",
+            "name": "formations",
+            "record_size": 164,
+            "valid_records": 838,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "AGmV",
+            "name": "default_teamsheets",
+            "record_size": 160,
+            "valid_records": 809,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "kISL",
+            "name": "teamstadiumlinks",
+            "record_size": 4,
+            "valid_records": 815,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "nQVU",
+            "name": "editedplayernames",
+            "record_size": 184,
+            "valid_records": 53,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "bneD",
+            "name": "dcplayernames",
+            "record_size": 40,
+            "valid_records": 4310,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "RrqT",
+            "name": "teamplayerlinks",
+            "record_size": 16,
+            "valid_records": 22108,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "qdZF",
+            "name": "leagueteamlinks",
+            "record_size": 28,
+            "valid_records": 809,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "CxJp",
+            "name": "teamnationlinks",
+            "record_size": 8,
+            "valid_records": 133,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "FMpz",
+            "name": "competition",
+            "record_size": 68,
+            "valid_records": 201,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "onMQ",
+            "name": "leagues",
+            "record_size": 128,
+            "valid_records": 53,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "Knen",
+            "name": "manager",
+            "record_size": 304,
+            "valid_records": 816,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "ZrAO",
+            "name": "playerloans",
+            "record_size": 8,
+            "valid_records": 1661,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "TKgq",
+            "name": "teamformationteamstylelinks",
+            "record_size": 8,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "rIsB",
+            "name": "previousteam",
+            "record_size": 8,
+            "valid_records": 222,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "LbKk",
+            "name": "rivals",
+            "record_size": 8,
+            "valid_records": 1253,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "nhXl",
+            "name": "playerpronouns",
+            "record_size": 24,
+            "valid_records": 2,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "DFeB",
+            "name": "player_grudgelove",
+            "record_size": 8,
+            "valid_records": 259,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "Hrbq",
+            "name": "cp_skeletal",
+            "record_size": 236,
+            "valid_records": 1,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "qsGz",
+            "name": "cp_flesh",
+            "record_size": 236,
+            "valid_records": 1,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "dMwM",
+            "name": "cp_fat",
+            "record_size": 188,
+            "valid_records": 1,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "SPTx",
+            "name": "createplayer",
+            "record_size": 32,
+            "valid_records": 1,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "QMqB",
+            "name": "ucc",
+            "record_size": 12,
+            "valid_records": 1111,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "Zeam",
+            "name": "outfitarrangements",
+            "record_size": 68,
+            "valid_records": 783,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "nVuT",
+            "name": "competitionstadiumlinks",
+            "record_size": 8,
+            "valid_records": 756,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "esAj",
+            "name": "stadiumassignments",
+            "record_size": 56,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "hCEv",
+            "name": "mls_group_structure",
+            "record_size": 4,
+            "valid_records": 30,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "ySyc",
+            "name": "playersuspensions",
+            "record_size": 12,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "yYtg",
+            "name": "playerbootremapping",
+            "record_size": 4,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "eqXx",
+            "name": "agents",
+            "record_size": 276,
+            "valid_records": 29,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "UlaA",
+            "name": "playerformdiff",
+            "record_size": 8,
+            "valid_records": 50,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "ImNE",
+            "name": "teamcounterparts",
+            "record_size": 128,
+            "valid_records": 55,
+            "fields_count": 0,
+            "parse_ok": true
+          }
+        ],
+        "appearance_candidate_tables": [
+          {
+            "short": "SPTx",
+            "name": "createplayer",
+            "offset": 6841024,
+            "absolute_in_db": 6841316,
+            "parse_ok": true,
+            "unknown0": 6,
+            "record_size": 32,
+            "valid_records": 1,
+            "fields_count": 0,
+            "records_start": 6841353,
+            "appearance_fields": [],
+            "identity_fields": [],
+            "all_field_names": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "CmPlr20250925012126739",
+      "size": 15274941,
+      "modified_utc": "2026-05-01T20:22:35Z",
+      "sha256": "0b7cf9ffcc0335e62d13cb8000980d08214a67fafcdb3d741bb265eae4399d4f",
+      "outer": {
+        "version": 1,
+        "header_size": 1108,
+        "data_size_declared": 15273815,
+        "header_start": 18,
+        "header_end": 1126,
+        "data_start": 1126,
+        "data_end_declared": 15274941,
+        "file_size": 15274941,
+        "sizes_fit_file": true,
+        "header_crc": {
+          "stored_hex": "72726143",
+          "actual_hex": "9d14d1b4",
+          "matches": false
+        },
+        "data_crc": {
+          "stored_hex": "65766153",
+          "actual_hex": "77865fbd",
+          "matches": false,
+          "calculated_until": 15274941
+        },
+        "header_magic_preview": "iÃ¨re - Progr. p",
+        "data_magic_preview_hex": "547970655f4361726565720079b25a080e02000001000000f4751e0aa113b243"
+      },
+      "database": {
+        "found": true,
+        "all_candidates": [
+          {
+            "offset": 213681,
+            "db_size": 1318228,
+            "table_count": 33,
+            "db_fits_file": true,
+            "index_fits_db": true,
+            "header_hex_32": "4442000800000000541d14000000000021000000e450ff62656d6d6a00000000"
+          },
+          {
+            "offset": 1531913,
+            "db_size": 7044560,
+            "table_count": 33,
+            "db_fits_file": true,
+            "index_fits_db": true,
+            "header_hex_32": "4442000800000000d07d6b0000000000210000004275781d6c79784c00000000"
+          }
+        ],
+        "selected": {
+          "offset": 1531913,
+          "db_size": 7044560,
+          "table_count": 33,
+          "db_fits_file": true,
+          "index_fits_db": true,
+          "header_hex_32": "4442000800000000d07d6b0000000000210000004275781d6c79784c00000000"
+        },
+        "db_sha256": "515f31cb01bd4dc43b2f3ae7ded82d52cff3d518f5d9dbeff55603ba79ec6368",
+        "tables_start": 292,
+        "table_count": 33,
+        "parsed_table_count": 33,
+        "failed_table_count": 0,
+        "table_catalog": [
+          {
+            "short": "lyxL",
+            "name": "teams",
+            "record_size": 188,
+            "valid_records": 799,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "CZUM",
+            "name": "players",
+            "record_size": 144,
+            "valid_records": 20514,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "mDGw",
+            "name": "formations",
+            "record_size": 164,
+            "valid_records": 828,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "AGmV",
+            "name": "default_teamsheets",
+            "record_size": 160,
+            "valid_records": 799,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "esAj",
+            "name": "stadiumassignments",
+            "record_size": 56,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "kISL",
+            "name": "teamstadiumlinks",
+            "record_size": 4,
+            "valid_records": 805,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "nhXl",
+            "name": "playerpronouns",
+            "record_size": 24,
+            "valid_records": 2,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "rIsB",
+            "name": "previousteam",
+            "record_size": 8,
+            "valid_records": 424,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "DFeB",
+            "name": "player_grudgelove",
+            "record_size": 8,
+            "valid_records": 208,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "Hrbq",
+            "name": "cp_skeletal",
+            "record_size": 236,
+            "valid_records": 25,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "qsGz",
+            "name": "cp_flesh",
+            "record_size": 236,
+            "valid_records": 25,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "dMwM",
+            "name": "cp_fat",
+            "record_size": 188,
+            "valid_records": 25,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "SPTx",
+            "name": "createplayer",
+            "record_size": 32,
+            "valid_records": 25,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "RrqT",
+            "name": "teamplayerlinks",
+            "record_size": 16,
+            "valid_records": 21664,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "QMqB",
+            "name": "ucc",
+            "record_size": 12,
+            "valid_records": 967,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "Zeam",
+            "name": "outfitarrangements",
+            "record_size": 68,
+            "valid_records": 783,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "nQVU",
+            "name": "editedplayernames",
+            "record_size": 184,
+            "valid_records": 54,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "bneD",
+            "name": "dcplayernames",
+            "record_size": 40,
+            "valid_records": 1707,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "qdZF",
+            "name": "leagueteamlinks",
+            "record_size": 28,
+            "valid_records": 799,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "CxJp",
+            "name": "teamnationlinks",
+            "record_size": 8,
+            "valid_records": 134,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "FMpz",
+            "name": "competition",
+            "record_size": 68,
+            "valid_records": 200,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "LbKk",
+            "name": "rivals",
+            "record_size": 8,
+            "valid_records": 1251,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "Knen",
+            "name": "manager",
+            "record_size": 304,
+            "valid_records": 817,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "onMQ",
+            "name": "leagues",
+            "record_size": 128,
+            "valid_records": 52,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "ZrAO",
+            "name": "playerloans",
+            "record_size": 8,
+            "valid_records": 1366,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "TKgq",
+            "name": "teamformationteamstylelinks",
+            "record_size": 8,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "hCEv",
+            "name": "mls_group_structure",
+            "record_size": 4,
+            "valid_records": 30,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "eqXx",
+            "name": "agents",
+            "record_size": 276,
+            "valid_records": 29,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "ySyc",
+            "name": "playersuspensions",
+            "record_size": 12,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "yYtg",
+            "name": "playerbootremapping",
+            "record_size": 4,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "nVuT",
+            "name": "competitionstadiumlinks",
+            "record_size": 8,
+            "valid_records": 749,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "UlaA",
+            "name": "playerformdiff",
+            "record_size": 8,
+            "valid_records": 50,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "ImNE",
+            "name": "teamcounterparts",
+            "record_size": 128,
+            "valid_records": 55,
+            "fields_count": 0,
+            "parse_ok": true
+          }
+        ],
+        "appearance_candidate_tables": [
+          {
+            "short": "SPTx",
+            "name": "createplayer",
+            "offset": 5321248,
+            "absolute_in_db": 5321540,
+            "parse_ok": true,
+            "unknown0": 6,
+            "record_size": 32,
+            "valid_records": 25,
+            "fields_count": 0,
+            "records_start": 5321577,
+            "appearance_fields": [],
+            "identity_fields": [],
+            "all_field_names": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "CmPlr20260702021410684",
+      "size": 15274941,
+      "modified_utc": "2026-07-02T00:14:10Z",
+      "sha256": "b2c84886b99c70d075dff2cc6b85e9f237cd5619daab77e5927680a380707fbc",
+      "outer": {
+        "version": 1,
+        "header_size": 1108,
+        "data_size_declared": 15273815,
+        "header_start": 18,
+        "header_end": 1126,
+        "data_start": 1126,
+        "data_end_declared": 15274941,
+        "file_size": 15274941,
+        "sizes_fit_file": true,
+        "header_crc": {
+          "stored_hex": "72726143",
+          "actual_hex": "4d975a25",
+          "matches": false
+        },
+        "data_crc": {
+          "stored_hex": "65766153",
+          "actual_hex": "a54c53ac",
+          "matches": false,
+          "calculated_until": 15274941
+        },
+        "header_magic_preview": "iÃ¨re - Progr. p",
+        "data_magic_preview_hex": "547970655f43617265657200838fc6a30e02000001000000e26b9b05dc837b4f"
+      },
+      "database": {
+        "found": true,
+        "all_candidates": [
+          {
+            "offset": 213681,
+            "db_size": 1318228,
+            "table_count": 33,
+            "db_fits_file": true,
+            "index_fits_db": true,
+            "header_hex_32": "4442000800000000541d14000000000021000000e450ff62656d6d6a00000000"
+          },
+          {
+            "offset": 1531913,
+            "db_size": 7044560,
+            "table_count": 33,
+            "db_fits_file": true,
+            "index_fits_db": true,
+            "header_hex_32": "4442000800000000d07d6b0000000000210000004275781d6c79784c00000000"
+          }
+        ],
+        "selected": {
+          "offset": 1531913,
+          "db_size": 7044560,
+          "table_count": 33,
+          "db_fits_file": true,
+          "index_fits_db": true,
+          "header_hex_32": "4442000800000000d07d6b0000000000210000004275781d6c79784c00000000"
+        },
+        "db_sha256": "ff62ab7b3d3609d7320ec46b86a46de9a4ac09f32f76bbd9a00985b4b2992441",
+        "tables_start": 292,
+        "table_count": 33,
+        "parsed_table_count": 33,
+        "failed_table_count": 0,
+        "table_catalog": [
+          {
+            "short": "lyxL",
+            "name": "teams",
+            "record_size": 188,
+            "valid_records": 842,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "CZUM",
+            "name": "players",
+            "record_size": 144,
+            "valid_records": 21658,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "mDGw",
+            "name": "formations",
+            "record_size": 164,
+            "valid_records": 871,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "AGmV",
+            "name": "default_teamsheets",
+            "record_size": 160,
+            "valid_records": 842,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "kISL",
+            "name": "teamstadiumlinks",
+            "record_size": 4,
+            "valid_records": 848,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "nQVU",
+            "name": "editedplayernames",
+            "record_size": 184,
+            "valid_records": 53,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "bneD",
+            "name": "dcplayernames",
+            "record_size": 40,
+            "valid_records": 5627,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "RrqT",
+            "name": "teamplayerlinks",
+            "record_size": 16,
+            "valid_records": 23835,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "qdZF",
+            "name": "leagueteamlinks",
+            "record_size": 28,
+            "valid_records": 842,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "CxJp",
+            "name": "teamnationlinks",
+            "record_size": 8,
+            "valid_records": 166,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "FMpz",
+            "name": "competition",
+            "record_size": 68,
+            "valid_records": 202,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "onMQ",
+            "name": "leagues",
+            "record_size": 128,
+            "valid_records": 53,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "Knen",
+            "name": "manager",
+            "record_size": 304,
+            "valid_records": 848,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "ZrAO",
+            "name": "playerloans",
+            "record_size": 8,
+            "valid_records": 1700,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "DFeB",
+            "name": "player_grudgelove",
+            "record_size": 8,
+            "valid_records": 265,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "LbKk",
+            "name": "rivals",
+            "record_size": 8,
+            "valid_records": 1304,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "TKgq",
+            "name": "teamformationteamstylelinks",
+            "record_size": 8,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "rIsB",
+            "name": "previousteam",
+            "record_size": 8,
+            "valid_records": 670,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "nhXl",
+            "name": "playerpronouns",
+            "record_size": 24,
+            "valid_records": 2,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "Hrbq",
+            "name": "cp_skeletal",
+            "record_size": 236,
+            "valid_records": 24,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "qsGz",
+            "name": "cp_flesh",
+            "record_size": 236,
+            "valid_records": 24,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "dMwM",
+            "name": "cp_fat",
+            "record_size": 188,
+            "valid_records": 24,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "SPTx",
+            "name": "createplayer",
+            "record_size": 32,
+            "valid_records": 24,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "QMqB",
+            "name": "ucc",
+            "record_size": 12,
+            "valid_records": 1169,
+            "fields_count": 1,
+            "parse_ok": true
+          },
+          {
+            "short": "Zeam",
+            "name": "outfitarrangements",
+            "record_size": 68,
+            "valid_records": 783,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "nVuT",
+            "name": "competitionstadiumlinks",
+            "record_size": 8,
+            "valid_records": 756,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "esAj",
+            "name": "stadiumassignments",
+            "record_size": 56,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "hCEv",
+            "name": "mls_group_structure",
+            "record_size": 4,
+            "valid_records": 30,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "eqXx",
+            "name": "agents",
+            "record_size": 276,
+            "valid_records": 29,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "ySyc",
+            "name": "playersuspensions",
+            "record_size": 12,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "yYtg",
+            "name": "playerbootremapping",
+            "record_size": 4,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "UlaA",
+            "name": "playerformdiff",
+            "record_size": 8,
+            "valid_records": 0,
+            "fields_count": 0,
+            "parse_ok": true
+          },
+          {
+            "short": "ImNE",
+            "name": "teamcounterparts",
+            "record_size": 128,
+            "valid_records": 55,
+            "fields_count": 0,
+            "parse_ok": true
+          }
+        ],
+        "appearance_candidate_tables": [
+          {
+            "short": "SPTx",
+            "name": "createplayer",
+            "offset": 6841024,
+            "absolute_in_db": 6841316,
+            "parse_ok": true,
+            "unknown0": 6,
+            "record_size": 32,
+            "valid_records": 24,
+            "fields_count": 0,
+            "records_start": 6841353,
+            "appearance_fields": [],
+            "identity_fields": [],
+            "all_field_names": []
+          }
+        ]
+      }
+    }
+  ],
+  "cross_save": {
+    "appearance_tables_seen": [
+      {
+        "table": "SPTx|createplayer",
+        "save_count": 3,
+        "occurrences": [
+          {
+            "save": "CmPlr20260325001839527",
+            "record_size": 32,
+            "valid_records": 1,
+            "appearance_fields": []
+          },
+          {
+            "save": "CmPlr20250925012126739",
+            "record_size": 32,
+            "valid_records": 25,
+            "appearance_fields": []
+          },
+          {
+            "save": "CmPlr20260702021410684",
+            "record_size": 32,
+            "valid_records": 24,
+            "appearance_fields": []
+          }
+        ]
+      }
+    ]
+  }
+}
