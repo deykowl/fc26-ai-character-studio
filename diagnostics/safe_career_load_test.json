@@ -34,5 +34,12 @@
   "cleanup": {
     "marker_relative": "workspace/load_tests/active_test.json",
     "remove_command": "python tools/fc26_safe_career_load_test.py cleanup"
+  },
+  "cleanup_result": {
+    "cleaned_utc": "2026-07-23T16:06:58Z",
+    "test_copy_removed": true,
+    "test_copy_still_exists": false,
+    "source_original_intact": true,
+    "backup_intact": true
   }
 }
