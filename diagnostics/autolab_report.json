@@ -1,73 +1,19 @@
 {
   "schema": "fc26-ai-character-studio/autolab-agent-1.0",
   "stage": "batch_created",
-  "round": 1,
-  "mode": "initial_progressive",
+  "round": 2,
+  "mode": "confirm_after_exclusion",
   "source_save": "CmPlr20260325001839527",
-  "excluded_axes": [],
+  "excluded_axes": [
+    "ca_noseala_nl_ilx_r_a"
+  ],
   "tests": [
     {
-      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723195707925",
-      "name": "CmPlr20260723195707925",
-      "count": 1,
-      "sha256": "2878d58e8f5d670a3c10f9f22c67dfd96c011ecd5016734ed1e6220cf356e821",
-      "readback_ok": 1,
-      "top_axis": "ca_noseAla_NL_ILX_R_A"
-    },
-    {
-      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723195706965",
-      "name": "CmPlr20260723195706965",
-      "count": 4,
-      "sha256": "5986824e755ae16b8472deddb95b05238992631166c86a431759488d0a30e35b",
-      "readback_ok": 4,
-      "top_axis": "bs_brow_NR_SMX_B_F"
-    },
-    {
-      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723195706001",
-      "name": "CmPlr20260723195706001",
-      "count": 16,
-      "sha256": "beb96f7724ac17b998c1176610fd83d81346c2a55f00bb924794721e21d11549",
-      "readback_ok": 16,
-      "top_axis": "bs_mandible_NR_SXA_N_W"
-    },
-    {
-      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723195705033",
-      "name": "CmPlr20260723195705033",
-      "count": 32,
-      "sha256": "a942de7b789412546cb5be0607d14a4e149de174adfe3f93378a695048177576",
-      "readback_ok": 32,
-      "top_axis": "fa_jowl_NL_SXX_L_M"
-    },
-    {
-      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723195704064",
-      "name": "CmPlr20260723195704064",
-      "count": 64,
-      "sha256": "ddbea904dc9df027f17294e425d258c74c69af355a57653d298e0103118e27eb",
-      "readback_ok": 64,
-      "top_axis": "fl_lipLower_NN_SMX_B_F"
-    },
-    {
-      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723195703096",
-      "name": "CmPlr20260723195703096",
-      "count": 128,
-      "sha256": "dbb669e94aa3966d620ddbd4a31217ca9ff4d8c6024b28e48a4d5cb38ede630e",
-      "readback_ok": 128,
-      "top_axis": "fa_cheeks_NR_XMX_L_M"
-    },
-    {
-      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723195702128",
-      "name": "CmPlr20260723195702128",
-      "count": 256,
-      "sha256": "fe959806b24f936dc89d7f6f5d3171058f0b64e197cca47606bfc3ddf2a93e5f",
-      "readback_ok": 256,
-      "top_axis": "fa_jowl_NL_IXX_D_U"
-    },
-    {
-      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723195701159",
-      "name": "CmPlr20260723195701159",
-      "count": 618,
-      "sha256": "9f4bc5f7c41fbda64865e4db158648f7725c7540c8c2f97990d8e03dd3d364ca",
-      "readback_ok": 618,
+      "path": "C:\\Users\\frlet\\AppData\\Local\\EA SPORTS FC 26\\settings\\CmPlr20260723200107946",
+      "name": "CmPlr20260723200107946",
+      "count": 617,
+      "sha256": "23a538dd318115133e1185d0be6734778e60cb774addf1249c2c978898cfd857",
+      "readback_ok": 617,
       "top_axis": "fl_mandibularGroove_NR_XXX_L"
     }
   ],
