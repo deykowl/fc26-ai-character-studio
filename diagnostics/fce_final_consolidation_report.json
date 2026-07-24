@@ -1,0 +1,31 @@
+{
+  "schema": "fc26-ai-character-studio/fce-final-consolidation-report",
+  "generated_utc": "2026-07-24T07:42:27.644331+00:00",
+  "summary": {
+    "axis_count": 618,
+    "direct_exact_axes": 402,
+    "recovered_exact_axes": 216,
+    "true_native_name_ambiguities": 0,
+    "archive_alias_candidates_collapsed": 1950,
+    "unique_logical_targets": 618,
+    "logical_target_duplicates": 0,
+    "layer_counts": {
+      "fat": 180,
+      "flesh": 215,
+      "skeletal": 223
+    }
+  },
+  "outputs": {
+    "verified_map": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work\\workspace\\generated\\fce_bridge\\fce_verified_618_axis_map_final.json",
+    "native_payload": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work\\workspace\\generated\\fce_bridge\\fce_native_morph_payload_final.json",
+    "adapter": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work\\workspace\\generated\\fce_bridge\\fce_native_adapter_final.py",
+    "csv": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work\\diagnostics\\fce_verified_618_axis_map_final.csv"
+  },
+  "safety": {
+    "fce_started": false,
+    "fc26_started": false,
+    "saves_modified": false,
+    "game_files_modified": false,
+    "anti_cheat_touched": false
+  }
+}
