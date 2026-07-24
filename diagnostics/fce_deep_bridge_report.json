@@ -1,0 +1,86 @@
+{
+  "schema": "fc26-ai-character-studio/fce-deep-bridge-1.0",
+  "generated_utc": "2026-07-24T06:34:30Z",
+  "repo": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work",
+  "fce_root": "C:\\Users\\frlet\\Downloads\\FCE_Character_Editor_Official",
+  "project": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work\\workspace\\projects\\b05e39e56dc14fa5b586c6900b547f9d",
+  "summary": {
+    "studio_axes": 618,
+    "json_files_analyzed": 0,
+    "npz_files_analyzed": 0,
+    "text_files_analyzed": 3,
+    "sqlite_databases_analyzed": 1,
+    "unique_fce_morph_matches": 3,
+    "generated_default_files": [
+      "fat.txt",
+      "flesh.txt",
+      "skeletal.txt"
+    ]
+  },
+  "json": [],
+  "npz": [],
+  "text": [
+    {
+      "source": "C:\\Users\\frlet\\Downloads\\FCE_Character_Editor_Official\\default\\26\\fat.txt",
+      "output": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work\\workspace\\generated\\fce_bridge\\fat.txt",
+      "layer": "fat",
+      "line_count": 31203,
+      "known_morph_matches": 1,
+      "numeric_matched_lines": 0,
+      "changed_lines": 0,
+      "match_samples": [
+        {
+          "morph": "ca_noseSupratip_NN_XXX_R_A",
+          "line": 1
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\frlet\\Downloads\\FCE_Character_Editor_Official\\default\\26\\flesh.txt",
+      "output": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work\\workspace\\generated\\fce_bridge\\flesh.txt",
+      "layer": "flesh",
+      "line_count": 31203,
+      "known_morph_matches": 1,
+      "numeric_matched_lines": 0,
+      "changed_lines": 0,
+      "match_samples": [
+        {
+          "morph": "fl_lipUpper_NR_SCX_R_A",
+          "line": 1
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\frlet\\Downloads\\FCE_Character_Editor_Official\\default\\26\\skeletal.txt",
+      "output": "C:\\Users\\frlet\\Downloads\\FC26_AI_Character_Studio_v1.0.1\\FC26_Studio_Final_Work\\workspace\\generated\\fce_bridge\\skeletal.txt",
+      "layer": "skeletal",
+      "line_count": 31203,
+      "known_morph_matches": 1,
+      "numeric_matched_lines": 0,
+      "changed_lines": 0,
+      "match_samples": [
+        {
+          "morph": "bs_zygomaxilla_NL_XXX_D_U",
+          "line": 1
+        }
+      ]
+    }
+  ],
+  "sqlite": [
+    {
+      "path": "C:\\Users\\frlet\\Downloads\\FCE_Character_Editor_Official\\default\\26\\skins.db",
+      "size": 34818340,
+      "sha256": "6edc931eba38dddec3d9be377517b1a0a7fb03ba4f2c4cf42fc40491179c70ec",
+      "tables": [],
+      "error": "file is not a database"
+    }
+  ],
+  "fce_profile_headers": [],
+  "safety": {
+    "fce_files_modified": false,
+    "fc26_saves_modified": false,
+    "game_files_modified": false,
+    "anti_cheat_touched": false,
+    "photos_uploaded": false
+  }
+}
